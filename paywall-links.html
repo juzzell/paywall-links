@@ -24,7 +24,7 @@ h3 {
 }
 
 a, p, li {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Roboto', Arial, sans-serif;
 	font-weight: thin;
 	border-radius: 4px;
 	padding: 4px;
@@ -50,6 +50,21 @@ a:hover>div {
 /*Paywall link CSS ends here*/
 
 </style>
+
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Roboto:400,100:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+
 </head>
 
 <h1>Paywall link POC</h1>
@@ -60,13 +75,13 @@ a:hover>div {
 <p>This is done by using the a:hover state to show top level URLs (like the Times, FT, NYT etc) are behind a paywall.</p>
 <p>If you're wondering, the colour used is a tasteful and classy dollar green: #85bb65</p>
 
-<a href="http://www.bbc.co.uk/">Article on BBC News</a> :a non-paywalled link
+<a href="http://www.bbc.co.uk/">Article on BBC News</a> <p>:a non-paywalled link</p>
 <br/><br/>
 
-<a href="http://www.thetimes.co.uk/tto/news/">Article in the Times</a> :a paywalled link with a green hover state
+<a href="http://www.thetimes.co.uk/tto/news/">Article in the Times</a> <p>:a paywalled link with a green hover state</p>
 <br/><br/>
 
-<a href="http://www.ft.com/">Article in the FT<div><img src="https://i.imgur.com/RMQCDBO.gif"/></div></a> :a paywalled link with a green hover state and a dollar sign for emphasis
+<a href="http://www.ft.com/">Article in the FT<div><img src="https://i.imgur.com/RMQCDBO.gif"/></div></a> <p>:a paywalled link with a green hover state and a dollar sign for emphasis</p>
 
 <p>The obvious limitation for this is that the :hover attribute isn't great for mobile. However, I might look at implementing some clever js or something. Who knows. Who bloody knows.</p>
 
