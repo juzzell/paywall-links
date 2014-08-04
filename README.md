@@ -1,26 +1,14 @@
-    ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+
+Hi there!
+
+This is a short bit of CSS to indicate whether a link is to a paywalled news site.
+
+This is done by using the a:hover state to show top level URLs (like The Times, the FT, the NYT etc), instead of using a symbol like £ or $.
+
+The colour used is a tasteful and classy dollar green: #85bb65.
+
+The obvious limitation for this is that the :hover attribute isn't great for mobile. However, will look at implementing some clever js or something. Who knows.
+
+Do whatever you want with this code or idea - there's probably a neater implemenation out there.
 
 
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started, we included a small hello world application.
-
-1) Open the hello-world.html file
-
-2) Click on the Preview button to open a live preview pane
-
-3) Make some changes to the file, save, watch the preview, and have fun!
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
