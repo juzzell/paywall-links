@@ -17,7 +17,7 @@ h1 {
 
 h3 {
 	font-family: Garamond, Helvetica, sans-serif;
-	font-size: 22;
+	font-size: 22px;
 	font-weight: bold;
 	border-radius: 4px;
 	padding: 10px;
@@ -26,8 +26,8 @@ h3 {
 a, p, li {
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: thin;
-	border-radius: 20px;
-	padding: 20px;
+	border-radius: 4px;
+	padding: 4px;
 	font-size: 16px;
 }
 
@@ -60,20 +60,17 @@ a:hover>div {
 <p>This is done by using the a:hover state to show top level URLs (like the Times, FT, NYT etc) are behind a paywall.</p>
 <p>If you're wondering, the colour used is a tasteful and classy dollar green: #85bb65</p>
 
-<ul>
-<li>link 1 is a non-paywalled link</li>
-<li>link 2 is a paywalled link with a green hover state</li>
-<li>link 3 is a paywalled link with a green hover state and a dollar sign for emphasis</li>
-</ul>
-
-<a href="http://www.bbc.co.uk/">Article on BBC News</a>
+<a href="http://www.bbc.co.uk/">Article on BBC News</a> :a non-paywalled link
 <br/><br/>
 
-<a href="http://www.thetimes.co.uk/tto/news/">Article in the Times</a>
+<a href="http://www.thetimes.co.uk/tto/news/">Article in the Times</a> :a paywalled link with a green hover state
 <br/><br/>
 
-<a href="http://www.ft.com/">Article in the FT<div><img src="https://i.imgur.com/RMQCDBO.gif"/></div>
-</a>
+<a href="http://www.ft.com/">Article in the FT<div><img src="https://i.imgur.com/RMQCDBO.gif"/></div></a> :a paywalled link with a green hover state and a dollar sign for emphasis
+
+<p>The obvious limitation for this is that the :hover attribute isn't great for mobile. However, I might look at implementing some clever js or something. Who knows. Who bloody knows.</p>
+
+<p>Do whatever you want with this code or idea - there's <del>probably</del> definitely a neater implemenation out there.</p>
 
 </body>
 </html>
