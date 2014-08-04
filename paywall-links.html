@@ -15,6 +15,14 @@ h1 {
 	text-align: center;
 }
 
+h3 {
+	font-family: Garamond, Helvetica, sans-serif;
+	font-size: 22;
+	font-weight: bold;
+	border-radius: 4px;
+	padding: 10px;
+}
+
 a {
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: thin;
@@ -23,6 +31,9 @@ a {
 	font-size: 16px;
 }
 
+/*Paywall link CSS starts here*/
+
+/*List of paywalled sites*/
 a:hover[href^="http://www.thetimes.co.uk/"], a:hover[href^="http://www.thesun.co.uk/"], a:hover[href^="http://www.nytimes.com/"], a:hover[href^="http://www.ft.com/"] {
         color: #85bb65;
 }
@@ -35,10 +46,28 @@ a:hover>div {
     display: inline;
 }
 
+/*Paywall link CSS ends here*/
+
 </style>
 </head>
 
 <h1>Paywall link POC</h1>
+
+<h3>What is this?</h3>
+
+This is a short bit of CSS to indicate whether a link is to a paywalled news site, for general web browsing or in email newsletters etc (anywhere that uses HTML/CSS3).
+
+This is done by using the a:hover state to show top level URLs (like the Times, FT, NYT etc) are behind a paywall.
+
+The stylesheet is located in the header or can be found here: https://github.com/juzzell/paywell-links/blob/master/paywall-links.html 
+
+If you're wondering, the colour used is a tasteful and classy dollar green: #85bb65
+
+<ul>
+<li>link 1 is a non-paywalled link</li>
+<li>link 2 is a paywalled link with a green hover state</li>
+<li>link 3 is a paywalled link with a green hover state and a dollar sign for emphasis</li>
+</ul>
 
 <a href="http://www.bbc.co.uk/">Article on BBC News</a>
 <br/><br/>
