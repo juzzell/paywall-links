@@ -8,9 +8,9 @@ This is done by using the a:hover state to show top level URLs (like The Times, 
 
 The colour used is a tasteful and classy dollar green: #85bb65. 
 
--link 1 is a non-paywalled link 
--link 2 is a paywalled link with a green hover state
--link 3 is a paywalled link with a green hover state and a dollar sign for emphasis
+* link 1 is a non-paywalled link 
+* link 2 is a paywalled link with a green hover state
+* link 3 is a paywalled link with a green hover state and a dollar sign for emphasis
 
 The obvious limitation for this is that the :hover attribute isn't great for mobile. However, might look at implementing some clever js or something. Who knows. Who bloody knows.
 
